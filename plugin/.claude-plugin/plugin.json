@@ -1,0 +1,13 @@
+{
+  "name": "panelgap",
+  "version": "0.1.0",
+  "description": "Find Grafana panels that will show No data and Prometheus alerts that can't fire: checks the PromQL in dashboards and rule files against a real /metrics scrape or the Prometheus API, and reports metric names and labels that aren't there, with the closest names the exporter really serves.",
+  "author": {
+    "name": "Giulliano Macedo",
+    "url": "https://github.com/GillMacedo"
+  },
+  "homepage": "https://github.com/GillMacedo/panelgap",
+  "repository": "https://github.com/GillMacedo/panelgap",
+  "license": "MIT",
+  "keywords": ["grafana", "prometheus", "promql", "dashboards", "alerting", "observability", "node-exporter", "no-data", "metrics", "ci"]
+}

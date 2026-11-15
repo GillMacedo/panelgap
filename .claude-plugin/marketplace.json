@@ -1,0 +1,14 @@
+{
+  "name": "panelgap-marketplace",
+  "description": "Marketplace for panelgap, which checks Grafana dashboards and Prometheus rules against the metrics an exporter really serves.",
+  "owner": {
+    "name": "Giulliano Macedo"
+  },
+  "plugins": [
+    {
+      "name": "panelgap",
+      "source": "./plugin",
+      "description": "Find Grafana panels that will show No data and alerts that can't fire, by checking their PromQL against a real /metrics scrape."
+    }
+  ]
+}

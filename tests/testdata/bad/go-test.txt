@@ -1,0 +1,5 @@
+--- FAIL: TestMetrics (0.00s)
+    x_test.go:6: exporter returned 500
+FAIL
+FAIL	example.com/failing	0.001s
+FAIL
